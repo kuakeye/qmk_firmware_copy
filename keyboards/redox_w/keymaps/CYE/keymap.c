@@ -38,7 +38,7 @@ enum custom_keycodes {
 #define KC_WS0 LCTL(LGUI(KC_0))
 #define KC_WS1 LCTL(LGUI(KC_1))
 #define KC_WS2 LCTL(LGUI(KC_2))
-#define KC_WS3 LCTL(LGUI(KC_3)) //test
+#define KC_WS3 LCTL(LGUI(KC_3))
 #define KC_WS4 LCTL(LGUI(KC_4))
 #define KC_WS5 LCTL(LGUI(KC_5))
 #define KC_WS6 LCTL(LGUI(KC_6))
