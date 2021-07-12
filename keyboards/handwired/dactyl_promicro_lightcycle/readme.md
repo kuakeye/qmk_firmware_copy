@@ -1,4 +1,10 @@
-# Dactyl with Arduino Pro Micro
+# Dactyl with Arduino Pro Micro - CYE Lightcycle hack
+
+This folder contains extremely hacky code that enables my lightcycle keyboard to work. Dactyl lightcyle is a dactyl with the top num/fn row missing, so some bogus values had to be put in for those top row arrays in keymap.c
+
+## Todos: 
+
+  * Put a numlock in the far right side (coded, not tested)
 
 See https://github.com/adereth/dactyl-keyboard for the original Version.
 
