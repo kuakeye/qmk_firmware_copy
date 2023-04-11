@@ -26,6 +26,7 @@ enum custom_keycodes {
 #define KC_UNDO LCTL(KC_Z) //undo
 #define KC_LGOFF LGUI(KC_L) //log out of comp
 #define KC_LGON LCTL(LALT(KC_DEL)) //log into work comp
+#define SHF_ENT MT(MOD_LSFT,KC_ENT) // shift when held, enter when pressed
 
 // #define KC_ALAS LALT_T(KC_PAST)
 // #define KC_CTPL LCTL_T(KC_BSLS)
@@ -67,7 +68,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┐       ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┼────────┤
      KC_ESC  ,KC_Z    ,KC_X    ,KC_C    ,KC_V    ,KC_B    , KC_LYR4,KC_LALT ,        KC_HOME, KC_END  ,KC_N    ,KC_M    ,KC_COMM ,KC_DOT  ,KC_SLSH ,KC_RSFT ,
   //├────────┼────────┼────────┼────────┼────┬───┴────┬───┼────────┼────────┤       ├────────┼────────┼───┬────┴───┬────┼────────┼────────┼────────┼────────┤
-     KC_LCTRL,KC_UNDO ,KC_LALT ,KC_LGUI ,     SYM_L   ,    KC_LSFT ,KC_DEL  ,        KC_ENT  ,KC_SPC  ,    SYM_L   ,     KC_LEFT ,KC_DOWN ,KC_UP   ,KC_RGHT
+     KC_LCTRL,KC_UNDO ,KC_LALT ,KC_LGUI ,     SYM_L   ,    SHF_ENT,  KC_DEL  ,        KC_ENT  ,KC_SPC  ,    SYM_L   ,     KC_LEFT ,KC_DOWN ,KC_UP   ,KC_RGHT
   //└────────┴────────┴────────┴────────┘    └────────┘   └────────┴────────┘       └────────┴────────┘   └────────┘    └────────┴────────┴────────┴────────┘
   ),
 
