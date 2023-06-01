@@ -26,7 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 // #define AUDIO_PIN       C6
 
-#define EE_HANDS
+// #define EE_HANDS
 // #define USE_SERIAL
 
 /* PMW33XX Settings */
@@ -35,7 +35,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define CONSOLE_ENABLE
 
 // /* spi config for eeprom and pmw3360 sensor */
-#define SPI_DRIVER                           SPID1
+#define SPI_DRIVER                           SPID2
 #define SPI_SCK_PIN                          B3
 #define SPI_SCK_PAL_MODE                     5
 #define SPI_MOSI_PIN                         B2
