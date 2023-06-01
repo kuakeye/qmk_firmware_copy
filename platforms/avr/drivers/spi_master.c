@@ -9,7 +9,7 @@
  *  but WITHOUT ANY WARRANTY; without even the implied warranty of
  *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  *  GNU General Public License for more details.
- *
+ *1
  *  You should have received a copy of the GNU General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
@@ -19,9 +19,12 @@
 #include "timer.h"
 
 #if defined(__AVR_AT90USB162__) || defined(__AVR_ATmega16U2__) || defined(__AVR_ATmega32U2__) || defined(__AVR_ATmega16U4__) || defined(__AVR_ATmega32U4__) || defined(__AVR_AT90USB646__) || defined(__AVR_AT90USB647__) || defined(__AVR_AT90USB1286__) || defined(__AVR_AT90USB1287__)
-#    define SPI_SCK_PIN B1
-#    define SPI_MOSI_PIN B2
-#    define SPI_MISO_PIN B3
+// #    define SPI_SCK_PIN B1
+# define SPI_SCK_PIN B3
+// #    define SPI_MOSI_PIN B2
+#define SPI_MOSI_PIN B2
+// #    define SPI_MISO_PIN B3
+#define SPI_MISO_PIN B6
 #elif defined(__AVR_ATmega32A__)
 #    define SPI_SCK_PIN B7
 #    define SPI_MOSI_PIN B5

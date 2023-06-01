@@ -13,9 +13,9 @@ AUDIO_ENABLE = no           # Audio output
 SWAP_HANDS_ENABLE = yes
 
 POINTING_DEVICE_ENABLE = yes
-POINTING_DEVICE_DRIVER = pmw3360
+POINTING_DEVICE_DRIVER = pmw3389
 MOUSE_SHARED_EP = yes
 
 SPLIT_KEYBOARD = yes
 
-DEFAULT_FOLDER = handwired/tractyl_manuform/5x6_right/teensy2pp
+DEFAULT_FOLDER = handwired/tractyl_manuform/5x6_right/elite_c
